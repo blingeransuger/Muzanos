@@ -1,0 +1,23 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+
+local PhantomForcesWindow = Library:NewWindow("Danimals Adventure World")
+
+
+local KillingCheats = PhantomForcesWindow:NewSection("Teleporters")
+
+
+KillingCheats:CreateButton("Yogurt World", function()
+    local teleportService = game:GetService("TeleportService")
+    teleportService:Teleport(116628219162552, game.Players.LocalPlayer)
+end)
+
+
+KillingCheats:CreateButton("Space World", function()
+    local teleportService = game:GetService("TeleportService")
+    teleportService:Teleport(18755516838, game.Players.LocalPlayer) 
+end)
+
+
+local CreditsSection = PhantomForcesWindow:NewSection("Credits : Muzan")
+
